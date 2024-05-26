@@ -192,7 +192,6 @@ h6,
 p {
     margin-top: 0;
     margin-bottom: 1rem;
-    color: #b1d7c6;
 }
 
 abbr[title] {
@@ -274,13 +273,12 @@ sup {
 }
 
 a {
-    color: #b1d7c6;
+    color: #A1684F;
     text-decoration: underline;
 }
 
 a:hover {
-    color: ;
-    color: #b1d7c6;
+    color: var(--bs-link-hover-color);
 }
 
 a:not([href]):not([class]),
@@ -4139,7 +4137,7 @@ fieldset:disabled .btn {
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-    color: #b1d7c6;
+    color: #0B1116;
     text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -9000,7 +8998,7 @@ fieldset:disabled .btn {
 /* rtl:end:remove */
 .text-primary {
     --bs-text-opacity: 1;
-    color: #b1d7c6;
+    color: #585C60;
 }
 
 .text-secondary {
@@ -12618,7 +12616,6 @@ h1,
 p.lead {
     font-size: 1.15rem;
     font-weight: 400;
-    color: #b1d7c6;
 }
 
 .subheading {
@@ -12626,7 +12623,6 @@ p.lead {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1.5rem;
-    color: #b1d7c6;
 }
 
 #sideNav {
